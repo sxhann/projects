@@ -22,7 +22,7 @@ def deleteTask():
         taskToDelete = int(input("Enter the # you want to remove: "))
         if taskToDelete >=0 and taskToDelete < len(tasks):
             tasks.pop(taskToDelete - 1)
-            print(f"Great job!!! Here's a cute flower for getting '{taskToDelete}' done! (*ᴗ͈ˬᴗ͈)ꕤ") or print(f"Awesome work soldier ദ്ദി ˉ͈̀꒳ˉ͈́ )✧ here's some energy to replenish for completing '{taskToDelete}'!")
+            print(f"Great job!!! Here's a cute flower for getting '{taskToDelete}' done! (*ᴗ͈ˬᴗ͈)ꕤ")
     except:
         print("Erm I don't think that's a valid task number! Try again!")
 
@@ -60,7 +60,7 @@ if __name__ == "__main__":
             break
 
         else:
-            print("That's not an option...(っ- ‸ - ς) pick a real one! <(￣︶￣)↗ (1, 2, 3, 4)") or print("That's not an option...(っ- ‸ - ς) c'mon let's pick a real one! (σﾟﾛﾟ)σ (1, 2, 3, 4)")
+            print("That's not an option...(っ- ‸ - ς) pick a real one! <(￣︶￣)↗ (1, 2, 3, 4)") 
 
 
 print("So sad to see you go... here's a heart to take with you (੭ ˊ^ˋ)੭ ♡")
